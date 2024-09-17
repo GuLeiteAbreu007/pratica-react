@@ -1,0 +1,64 @@
+p{
+    font-weight: 600;
+    width: 150px;
+    margin: 0;
+}
+
+h1,h2,h3,h4,h5,h6{
+    padding: 0;
+    margin: 0;
+}
+
+.preco{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: #2D2E2E;
+}
+
+.card{
+    background-color: white;
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    width: 330px;
+    padding: 3rem;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 100px;
+}
+
+.botao{
+    background-color: #3A4F39;
+    color: white;
+    padding: 0.5rem;
+    width: 170px;
+}
+
+.card_content{
+    gap: 30px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.active_item{
+    display: flex;
+    gap: 10px;
+    color: #3A4F39;
+    fill: #3A4F39;
+}
+
+.desactive_item{
+    display: flex;
+    gap: 10px;
+    color: #2d2e2e55;
+    fill: #2d2e2e55;
+}
+
+.title{
+    color: #3A4F39;
+}
